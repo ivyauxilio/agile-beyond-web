@@ -1142,7 +1142,7 @@
     }
     .w3l-footer-66 .mid-footer-gd {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.2fr 1fr;
         grid-gap: 40px;
     }
     .overline {

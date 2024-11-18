@@ -40,7 +40,7 @@ const BannerContactUs = () => {
                       <img
                         src={Logo}
                         alt="Agile Beyond Logo"
-                        className="dark:invert footer-logo"
+                        className="dark:invert footer-logo pb-5"
                          style={{height:'auto', width:'100%'}}
                       />
                     </a>
@@ -55,8 +55,13 @@ const BannerContactUs = () => {
                           </a>
                         </li>
                         <li>
-                          <a href="/services">
-                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Services
+                          <a href="/business-process-outsourcing">
+                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Business Process Outsourcing
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/customer-integration-process">
+                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Customer Integration Process
                           </a>
                         </li>
                         <li>
@@ -77,8 +82,13 @@ const BannerContactUs = () => {
                           </a>
                         </li>
                         <li>
-                          <a href="/blog">
-                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Blog
+                          <a href="/team">
+                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Our Team
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/news">
+                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> News
                           </a>
                         </li>
                         <li>

@@ -233,7 +233,7 @@ export default function Navbar() {
                   id="nav-dropdown-dark-example"
                   title="Services"
                   menuVariant=""
-                  className='d-flex flex-column menu-mobile'
+                  className='d-flex flex-column menu-mobile w-100'
                 >
                   <NavDropdown.Item className='' href="/business-process-outsourcing" data-bs-dismiss="offcanvas">
                   Business Process Outsourcing

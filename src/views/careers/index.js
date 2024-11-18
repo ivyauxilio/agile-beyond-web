@@ -231,10 +231,9 @@ const Careers = () => {
                   </p>
                 </li>
                 <li>
-                  {" "}
                   <strong>Submit Your Application</strong>
                   <p>
-                    Click the "Apply Now" button on the job listing or send your
+                    Send your
                     application to{" "}
                     <a href="mailto:inquire@agilebeyond.net">
                       inquire@agilebeyond.net

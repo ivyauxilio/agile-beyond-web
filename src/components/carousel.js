@@ -33,8 +33,9 @@ export default function CarouselMain() {
                     <div className="row g-4 align-items-center">
                       <div className="col-lg-7 animated fadeInLeft">
                         <div className="text-sm-center text-md-start">
-                          <h1 className="display-1 text-white mb-4 fw-bold h2">
-                            Innovating Beyond Your Global Success
+                          <h1 className="d-flex flex-column display-1 text-white mb-4 fw-bold h2">
+                            <span>Real People </span>
+                            <span>Your Success</span>
                           </h1>
                         </div>
                       </div>
@@ -56,7 +57,8 @@ export default function CarouselMain() {
                       <div className="col-lg-7 animated fadeInLeft">
                         <div className="text-sm-center text-md-start">
                           <h1 className="display-1 text-white mb-4 fw-bold h2">
-                            Innovating Beyond Your Global Success
+                            Real People 
+                            
                           </h1>
                         </div>
                       </div>

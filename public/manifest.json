@@ -1,14 +1,15 @@
 {
+  "name": "Agile Beyond",
   "short_name": "Agile Beyond",
-  "name": "Agile Beyond 2024",
+  "description": "Offer comprehensive back-office solutions designed to empower small to medium-sized businesses across various industries.",
   "icons": [
     {
-      "src": "AgileBeyondLogo.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "AgileBeyondLogo.png",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "192x192"
     },

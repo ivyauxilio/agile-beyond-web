@@ -18,15 +18,10 @@ const Services = () => {
               Business Process Outsourcing (BPO) Across Industries
             </h1> */}
             <p className="mb-0">
-              Agile Beyond offers specialized BPO services designed to optimize
-              operations, enhance efficiency, and drive profitability across a
-              variety of industries. While we have deep expertise in the
-              logistics and freight management sectors, our innovative platform
-              and comprehensive solutions are adaptable to meet the unique
-              demands of multiple markets.{" "}
+            At Agile Beyond, we specialize in offering BPO services that streamline operations, enhance efficiency, and boost profitability across various industries. Our innovative platform and comprehensive solutions are designed to meet the unique challenges of each market we serve, providing customized support for businesses looking to optimize their processes.
             </p>
           </div>
-          <div className="row g-4 justify-content-center">
+          <div className="row g-4 justify-content-center cursor-default">
             <div
               className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
               data-wow-delay="0.2s"
@@ -41,15 +36,11 @@ const Services = () => {
                             </div> --> */}
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
+                    <p className="d-inline-block h4 mb-4">
                       Comprehensive Back-Office Solutions
-                    </a>
+                    </p>
                     <p className="mb-4">
-                      Our back-office services are tailored to automate
-                      essential processes, reducing inefficiencies and
-                      optimizing workflows. By streamlining operations, we help
-                      logistics companies save time, cut costs, and increase
-                      profitability.
+                    Our back-office services are designed to automate key processes, reducing inefficiencies and optimizing workflows. Whether in retail, finance, healthcare, or any other sector, our solutions save time, cut costs, and drive operational success.
                     </p>
                   </div>
                 </div>
@@ -69,16 +60,11 @@ const Services = () => {
                             </div> --> */}
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
-                      Pricing Desk (Rate Management/ Quotation Desk/Pricing Desk
-                      Analytics)
-                    </a>
+                    <p className="d-inline-block h4 mb-4">
+                    Pricing Desk and Analytics
+                    </p>
                     <p className="mb-4">
-                      Specifically designed for freight management, our pricing
-                      desk provides accurate and competitive freight rates
-                      within a global timeframe of 1-4 hours. Our service is
-                      supported by around-the-clock operations and advanced data
-                      analytics.
+                    Our pricing desk services provide accurate, competitive rates across industries. With quick turnaround times and around-the-clock support, we help businesses stay agile in a competitive market. Advanced data analytics empower better pricing strategies and decision-making.
                     </p>
                   </div>
                 </div>
@@ -92,13 +78,11 @@ const Services = () => {
               <div className="service-item">
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
-                      Personalized Analytics and Reporting
-                    </a>
+                    <p className="d-inline-block h4 mb-4">
+                    Supply Chain Visibility
+                    </p>
                     <p className="mb-4">
-                      Our advanced analytics tools deliver in-depth insights
-                      into logistics operations, allowing businesses to uncover
-                      trends and optimize their processes effectively.
+                    Our real-time supply chain visibility systems offer full insight into your operations, allowing for proactive management and ensuring smooth service delivery, regardless of the industry.
                     </p>
                   </div>
                 </div>
@@ -118,14 +102,11 @@ const Services = () => {
                             </div> --> */}
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
+                    <p className="d-inline-block h4 mb-4">
                       Customer Dashboard Services
-                    </a>
+                    </p>
                     <p className="mb-4">
-                      We provide customizable dashboards that can be tailored to
-                      the specific needs of logistics companies, offering
-                      valuable insights that support data-driven
-                      decision-making.
+                    We offer customizable dashboards tailored to specific industry needs. These dashboards provide valuable insights that support data-driven decision-making, giving businesses a comprehensive view of their performance.
                     </p>
                   </div>
                 </div>
@@ -146,13 +127,11 @@ const Services = () => {
                             </div> --> */}
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
-                      On-time Tracking
-                    </a>
+                    <p className="d-inline-block h4 mb-4">
+                    Personalized Analytics and Reporting
+                    </p>
                     <p className="mb-4">
-                      Our real-time tracking feature offers full visibility into
-                      logistics operations, enabling proactive management and
-                      ensuring smooth, uninterrupted service delivery.
+                    Our advanced analytics tools deliver in-depth insights into operations, uncovering trends and helping businesses optimize their processes for maximum efficiency.
                     </p>
                   </div>
                 </div>
@@ -166,13 +145,11 @@ const Services = () => {
               <div className="service-item">
                 <div className="service-content p-4">
                   <div className="service-content-inner">
-                    <a href="#" className="d-inline-block h4 mb-4">
-                      Proactive Customer Service Support
-                    </a>
+                    <p className="d-inline-block h4 mb-4">
+                    Proactive Customer Service Support
+                    </p>
                     <p className="mb-4">
-                      Our advanced analytics tools deliver in-depth insights
-                      into logistics operations, allowing businesses to uncover
-                      trends and optimize their processes effectively.
+                    We deliver exceptional customer support, ensuring that your business operates seamlessly. Our dedicated support team is always available to assist with queries or concerns, helping you maintain a smooth and efficient workflow.
                     </p>
                   </div>
                 </div>
