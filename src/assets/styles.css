@@ -7,7 +7,7 @@
     --bg-footer: #0a0b0f;
     --bg-white: #ffffff;
     --bs-dark-rgb: 0,0,0;
-    --bs-light-primary: #f0ecf8
+    --bs-light-primary: #f0ecf8;
 
     /* --background-start-rgb:  255, 255, 255;
     --background-end-rgb: 255, 255, 255; */
@@ -127,12 +127,13 @@
 
     .btn.btn-dark {
         color: var(--bs-white);
+        background: var(--bs-dark);
         border: none;
     }
 
     .btn.btn-dark:hover {
-        color: var(--bs-primary);
-        background: var(--bs-light);
+        color: var(--bs-dark);
+        background: var(--bs-primary);
     }
 
 
@@ -1717,3 +1718,53 @@
   .cursor-default{
     cursor: default;
   }
+
+.homepage-section{
+    height: 500px;
+}
+
+.home-image{
+    width: 90%;
+}
+
+  .row:nth-child(2) .content {
+    order: 1; /* Move content to the second column */
+  }
+
+  .row:nth-child(2) .image {
+    order: 2; /* Move image to the first column */
+  }
+  .row:nth-child(1) .girl-phone {
+    order: 0
+  }
+  @media (max-width: 425px) {
+    .quote-text h1{
+        font-size: 1.5rem;
+    }
+    .quote-text h5{
+        font-size: 1rem;
+    }
+  }
+  /* Mobile view - revert to original layout */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr; /* Single-column layout */
+    }
+    .homepage-section{
+        height: auto;
+    }
+    .row:nth-child(2) .content, .row:nth-child(2) .image {
+      order: 0; /* Reset order for original positions */
+    }
+    .row:nth-child(1) .girl-phone {
+        order: 1
+    }
+  }
+
+
+@media (max-width: 1440px) and ( min-width: 1200px){
+  .container {
+    padding-right: 100px;
+    padding-left: 100px;
+    }
+}
