@@ -276,7 +276,7 @@ const ContactUs = () => {
                           46 Sarmiento St. Plaridel 1 Subdivision,{" "}
                         </p>
                         <p className="mb-0 fw-light">
-                          Malabanias, Angeles City, 2009, Philippines
+                          Malabanias, Clark, 2009, Philippines
                         </p>
                       </div>
                     </div>
@@ -291,14 +291,14 @@ const ContactUs = () => {
                       </div>
                       <div>
                         <h4>Customer Support</h4>
-                        <p className="mb-0 fw-light">
-                          📧 Email: support@agilebeyond.net
+                        <p className="d-flex mb-0 fw-light">
+                          📧 <span className="ms-2">support@agilebeyond.net</span>
                         </p>
-                        <p className="mb-0 fw-light">
-                          📞 Phone: +63 905 335 8369
+                        <p className="d-flex mb-0 fw-light">
+                          📞 <span className="ms-2">+63 905 335 8369</span>
                         </p>
-                        <p className="mb-0 fw-light">
-                          🕒 Hours of Operation: Mon-Fri – 09:00AM – 06:00PM
+                        <p className="d-flex mb-0 fw-light">
+                          🕒 <span className="ms-2">Mon-Fri – 09:00AM – 06:00PM</span>
                         </p>
                       </div>
                     </div>

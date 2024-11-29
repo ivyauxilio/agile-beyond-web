@@ -8,6 +8,7 @@
     --bg-white: #ffffff;
     --bs-dark-rgb: 0,0,0;
     --bs-light-primary: #f0ecf8;
+    --bs-secondary-rgb: 212 , 175 , 55;
 
     /* --background-start-rgb:  255, 255, 255;
     --background-end-rgb: 255, 255, 255; */
@@ -1737,9 +1738,30 @@
   .row:nth-child(1) .girl-phone {
     order: 0
   }
+  .ag-img-home{
+    width: 90%;
+  }
   @media (max-width: 425px) {
     .quote-text h1{
         font-size: 1.5rem;
+    }
+    .quote-text h5{
+        font-size: 1rem;
+    }   
+    .section-mission{
+        padding: 1.4rem
+    }
+    .home-about-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .ag-img-home{
+        width: 100%;
+    }
+  }
+  @media (max-width: 375px) {
+    .quote-text h1{
+        font-size: 1.2rem;
     }
     .quote-text h5{
         font-size: 1rem;
@@ -1763,8 +1785,12 @@
 
 
 @media (max-width: 1440px) and ( min-width: 1200px){
-  .container {
+  /* .container {
     padding-right: 100px;
     padding-left: 100px;
-    }
+    } */
+}
+.facheckcircle-home{
+    font-size: 15px;
+    flex-shrink: 0;
 }

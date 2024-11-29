@@ -15,4 +15,4 @@ const BannerContactUs = () => {
       </div>
     );
   }
-  export default BannerContactUs;
+  export default BannerContactUs;   

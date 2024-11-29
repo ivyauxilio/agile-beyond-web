@@ -25,16 +25,16 @@ function Home() {
             >
               <div className="about-item-contentrounded h-100">
                 <h4 className="text-primary">Welcome to Agile Beyond</h4>
-                <h1 className="mb-4 fw-bold h1">REAL PEOPLE. YOUR SUCCESS.</h1>
+                <h1 className="mb-3 fw-bold h1">REAL PEOPLE <span class="text-secondary fw-bolder mx-1 dot">·</span> YOUR SUCCESS</h1>
                 <p className="fw-light">
                   At AgileBeyond, we believe in the power of genuine
-                  connections. Our slogan, “REAL PEOPLE. YOUR SUCCESS.”, is more
+                  connections. Our slogan, <br/> “REAL PEOPLE<span class="fw-bolder ms-1 dot">·</span> YOUR SUCCESS”, is more
                   than just words—it’s the foundation of everything we do.
                 </p>
 
                 <Link
                   to="/about"
-                  className="btn btn-primary py-2 px-5 flex-shrink-0 rounded-pill"
+                  className="btn btn-primary py-2 px-5 flex-shrink-0 rounded-pill home-about-btn"
                   data-bs-dismiss="offcanvas"
                 >
                   About Us
@@ -51,9 +51,8 @@ function Home() {
                     <div className="rounded">
                       <img
                         src={AboutBg}
-                        alt="AG Logo"
-                        className="img-fluid rounded position-"
-                        style={{ width: "90%" }}
+                        alt="Agile Beyond Image"
+                        className="img-fluid rounded ag-img-home"
                       />
                     </div>
                   </div>
@@ -100,26 +99,27 @@ function Home() {
                 with excellence. When you work with us, you’re not just
                 outsourcing—you’re gaining a trusted extension of your team.
               </p>
-              <ul className="ms-4 list-unstyled">
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Dedicated
-                    Teams:
-                  </span>{" "}
-                  Trained professionals who understand your business.
-                </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Human Touch:{" "}
+              <ul className="list-unstyled">
+                <li className="d-flex">
+                  <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p><span className="fw-bolder">
+                     Dedicated Teams:{" "}
                   </span>
-                  Building genuine relationships for seamless collaboration.
+                  Trained professionals who understand your business.</p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" />{" "}
+                <li className="d-flex">
+                <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" /> 
+                <p><span className="fw-bolder">
+                   Human Touch:{" "}
+                  </span>
+                  Building genuine relationships for seamless collaboration.</p>
+                </li>
+                <li className="d-flex">
+                <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                 <p> <span className="fw-bolder">
                     Accountability:{" "}
                   </span>
-                  A focus on results delivered with integrity.
+                  A focus on results delivered with integrity.</p>
                 </li>
               </ul>
             </div>
@@ -145,27 +145,22 @@ function Home() {
                 results, we are here to drive your success every step of the
                 way.
               </p>
-              <ul className="ms-4 list-unstyled">
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Custom
-                    Solutions:
-                  </span>{" "}
-                  Tailored BPO services to meet your business needs.
+              <ul className="list-unstyled">
+                <li className="d-flex">
+                    <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p><span className="fw-bolder"> Custom Solutions:
+                  </span> Tailored BPO services to meet your business needs. </p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" />
-                    Scalable Operations:
-                  </span>{" "}
-                  Grow at your pace with our flexible solutions.
+                <li className="d-flex">
+                    <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p> <span className="fw-bolder">
+                    Scalable Operations: 
+                  </span> Grow at your pace with our flexible solutions.</p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" />
-                    Unwavering Support:
-                  </span>{" "}
-                  We’re with you, 24/7, ensuring your business runs smoothly.
+                <li className="d-flex">
+                  <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p> <span className="fw-bolder">Unwavering Support: </span> 
+                   We’re with you, 24/7, ensuring your business runs smoothly.</p>
                 </li>
               </ul>
             </div>
@@ -187,37 +182,37 @@ function Home() {
                 We specialize in delivering top-tier BPO solutions designed to
                 maximize efficiency and minimize overhead:
               </p>
-              <ul className="ms-4 list-unstyled">
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Customer
-                    Support:{" "}
+              <ul className="list-unstyled">
+                <li className="d-flex">
+                <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p><span className="fw-bolder">
+                    Customer Support:{" "}
                   </span>
                   Real-time assistance that prioritizes your customers’
-                  satisfaction.
+                  satisfaction.</p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Back-Office
-                    Solutions:{" "}
+                <li className="d-flex">
+                  <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" /> 
+                  <p><span className="fw-bolder">                    
+                    Back-Office Solutions:{" "}
                   </span>
                   Streamlined data management, billing, and administrative
-                  support.
+                  support.</p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" />
+                <li className="d-flex">
+                <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" />
+                  <p><span className="fw-bolder">
                     Logistics & Freight Support:
                   </span>{" "}
                   Specialized expertise in managing quotations, shipments, and
-                  global networks.
+                  global networks.</p>
                 </li>
-                <li>
-                  <span className="fw-bolder">
-                    <FaCheckCircle className="text-primary me-2" /> Tech-Enabled
-                    Solutions:
+                <li className="d-flex">
+                <FaCheckCircle className="text-primary me-2 mt-1 facheckcircle-home" /> 
+                  <p><span className="fw-bolder">
+                   Tech-Enabled Solutions:
                   </span>{" "}
-                  Harnessing technology to optimize and elevate your processes.
+                  Harnessing technology to optimize and elevate your processes.</p>
                 </li>
               </ul>
             </div>
@@ -238,19 +233,19 @@ function Home() {
           <div className="col-lg-5 col-md-6 offset-lg-1 col-sm-12">
             <div className="section-mission">
               <h4 className="text-primary"> With us, you get:</h4>
-              <ul className="ms-2 list-unstyled">
+              <ul className="list-unstyled">
                 <li className="d-flex">
-                  <FaAngleRight className="mt-1" />
+                  <FaAngleRight className="mt-1 me-2" />
                   <div>
                     A team you can trust, working tirelessly behind the scenes.
                   </div>
                 </li>
-                <li className="d-flex">
-                  <FaAngleRight className="mt-1" />
+                <li className="d-flex"> 
+                  <FaAngleRight className="mt-1 me-2" />
                   Customized approaches that fit your unique business model.
                 </li>
                 <li className="d-flex">
-                  <FaAngleRight className="mt-1" />
+                  <FaAngleRight className="mt-1 me-2" />
                   The peace of mind that comes with knowing your operations are
                   in good hands.
                 </li>
@@ -263,13 +258,13 @@ function Home() {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-9 offset-lg-3 quote-text">
-            <h1 className="fw-normal  d-flex justify-content-lg-end justify-content-md-end">
-              REAL PEOPLE. YOUR SUCCESS.
+            <h1 className="fw-normal d-lg-flex d-md-flex justify-content-lg-end justify-content-md-end justify-content-start">
+              REAL PEOPLE <span class="text-secondary fw-bolder mx-2 dot"> · </span> YOUR SUCCESS
             </h1>
             <h5 className="text-lg-end text-md-end">
               It’s not just our promise—it’s our purpose. Partner with us and
               experience the difference of working with a BPO provider that’s as
-              invested in your success as you are.
+              invested in your success as you are.  
             </h5>
           </div>
         </div>

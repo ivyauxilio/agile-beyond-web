@@ -98,7 +98,7 @@ const BannerContactUs = () => {
                         </li>
                         <li>
                           <a href="/contact-us">
-                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Contact US
+                            <FaCheckDouble className="fa fa-angle-double-right mr-2" /> Contact Us
                           </a>
                         </li>
                       </ul>
@@ -131,17 +131,17 @@ const BannerContactUs = () => {
         </div>
         <div className="below-section">
           <div className="container">
-            <div className="copyright-footer">
+            <div className="copyright-footer d-block d-lg-grid d-md-grid text-lg-start text-md-start text-center">
               <div className="columns text-lg-left">
                 <p className="mb-0">
                   © {new Date().getFullYear()} Agile Beyond. All rights reserved.
                 </p>
               </div>
-              <ul className="columns text-lg-right mb-0 d-lg-flex d-md-flex ">
+              <ul className="columns text-lg-right mb-0 d-lg-flex d-md-flex">
                 <li>
                   <a href="/privacy">Privacy Policy</a>
                 </li>
-                <li className="d-none d-md-block mx-1">|</li>
+                <li className="mx-1">|</li>
                 <li>
                   <a href="#">Terms Of Use</a>
                 </li>
